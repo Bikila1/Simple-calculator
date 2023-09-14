@@ -1,0 +1,178 @@
+/* body{ */
+/* margin: 0;
+    padding:0;
+    line-height: 0.5; */
+/* background:linear-gradient(to left,#0a020400,#04161c); */
+/* background: #00d9ff;
+    font-family: sans-serif; */
+/* } */
+
+/* .calci{
+    width: 500px; */
+/* padding-top: 1px;
+    padding-bottom: 100; */
+/* position: absolute;
+    top:30%;
+    left:15%; */
+/* transition:0.25px; */
+/* transform: translate(-50%,-50%);
+    text-align: center;
+} */
+/* #zero{
+    height: 55;
+    width: 116;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#display{
+    border:none;
+    background: white;
+    border-radius: 5px;
+    width: 245;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    border:2px solid white(5, 218, 255, 0.726);
+    color: black;
+}
+.button{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-size: 20;
+    border: none;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    border:0;
+    border-radius: 30px;
+    margin: 1.5;
+    transition:0.25px;
+}
+
+h1{
+    margin-top: 0 auto;
+    margin-left: 48px;
+    justify-items: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 30px;
+}
+
+h2{
+    color: white;
+    margin-top: 550px;
+    font-family: sans-serif;
+    margin-left: 48px;
+}
+.operator{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-size: 20;
+    text-align: center;
+    color: black;
+    border: none;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    border:0;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;  
+}
+
+.operator:hover{
+    background: #ddd7dd;
+} */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Calculator Styles */
+.calci {
+  width: 250px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+  color: #888;
+}
+
+#display {
+  width: 100%;
+  font-size: 20px;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.operator {
+  background-color: #8ddf11;
+  color: #000;
+}
+.operator:hover {
+  background: #f39c12;
+}
+#zero {
+  width: 110px;
+}
+input#zero.button {
+  background: #eeeeee;
+  margin: 5px 5px;
+  padding: 1px 5px;
+  width: 46.5%;
+}
+.operator[value="/"],
+.operator[value="*"],
+.operator[value="-"],
+.operator[value="+"],
+.operator[value="="] {
+  width: 50px;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 400px) {
+  .calci {
+    width: 100%;
+  }
+}
